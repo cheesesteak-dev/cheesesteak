@@ -1,25 +1,26 @@
 <?php 
-$sub_dir = "no";
-
-
+$sub_dir = "yes";
+$nav_bg = "bg-black"
 ?>
 
-<?php include '_inc/head.php' ?>
+	<?php include '../_inc/head.php' ?>
 
 <body>
 
-<div class="row zero-padmarg" id="homepage-leader">
+<?php include "../_inc/main-nav.php"; ?>
 
-<?php include '_inc/main-nav.php' ?>
+<div class="row zero-padmarg">
+
 
 	<div class="container zero-padding">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="leader-copy text-center">We'll Help You Find Your Path to Success</h3>
+				<h3 class="leader-copy text-center">Case Study: Corporate Homepage</h3>
 			</div>
 		</div>
 	</div>
 </div>
+
 
 <div class="row zero-padmarg">
 	<div class="span12 text-center">
@@ -28,19 +29,15 @@ $sub_dir = "no";
 	</div>
 </div>
 
-<div class="row zero-padmarg">
-	<a class="col-md-4 text-center bg-product">
-		<h4 class="heading">Product Design</h4>
-		<p>Creating products that solve problems</p>
-	</a>
-	<a class="col-md-4 text-center bg-ux">
-		<h4 class="heading">User Interface</h4>
-		<p>Designing websites</p>
-	</a>
-	<a class="col-md-4 text-center bg-ui">
- 		<h4 class="heading">User Experience</h4>
-		<p>Research &amp; Creating Engagement</p>
-	</a>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<img src="../img/case-studies/imh-homepage/ux-case-id-problem.jpg" />
+		</div>
+		<div class="col-md-4">
+			asdfase
+		</div>
+	</div>
 </div>
 
 <div class="row zero-padmarg bg-black">
@@ -118,7 +115,51 @@ $sub_dir = "no";
 	</div>
 </div>
 
-<?php include '_inc/footer.php' ?>
+<!-- <div class="row zero-padmarg bg-black">
+	<div class="col-process process-offering text-center">
+		<h4 class="heading">Research</h4>
+	</div>
+	<div class="col-process process-offering text-center">
+		<h4 class="heading">Design</h4>
+	</div>
+	<div class="col-process process-offering text-center">
+		<h4 class="heading">Prototype</h4>
+	</div>
+	<div class="col-process process-offering text-center">
+		<h4 class="heading">Build</h4>
+	</div>
+	<div class="col-process process-offering text-center">
+		<h4 class="heading">Ship</h4>
+	</div>
+</div> -->
+
+
+<footer>
+<div class="row zero-padmarg" id="homepage-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				here is all the stuff.
+			</div>
+			<div class="col-md3">
+
+			</div>
+
+		</div>
+	</div>
+</div>
+</footer>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
