@@ -10,20 +10,20 @@ $nav_bg = "bg-black"
 <?php include "../_inc/main-nav.php"; ?>
 
 <div class="container-fluid leader">
-	<div class="row zero-padmarg ">
+	<div class="row zero-margin ">
 		<div class="col-md-12">
 			<h3 class="leader-copy text-center">Case Study: Corporate Homepage</h3>
 		</div>
 	</div>
 </div>
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<h3 class="section-title">What We Do</h3>
 			<p class="fifty-padding-bottom">Our services are meant to bring value added results to your business.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/823x500" class=" img-responsive" />
 		</div>
@@ -42,7 +42,7 @@ $nav_bg = "bg-black"
 			<h3 class="section-title">Setting Goals</h3>
 			<p>During brainstorming sessions, we were able to identify clear goals that we wanted the new design to accomplish.</p>
 		</div>
-		<div class="row zero-padmarg">
+		<div class="row zero-margin">
 			<div class="col-md-4 text-center">
 				<h4>Improve Conversion</h4>
 			</div>
@@ -57,12 +57,12 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<h3 class="section-title">Ideating Concepts</h3>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 	<div class="col-md-6 col-md-offset-1">
 		<img src="http://placehold.it/823x500" class=" img-responsive" />
 	</div>
@@ -74,12 +74,12 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg zero-padmarg">
+	<div class="row zero-margin zero-margin">
 		<div class="col-md-12 text-center">
 			<h2>Wireframing</h2>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-4 col-md-offset-1">
 			<p>I transferred my whiteboard designs into a digital version. This wireframing allowed me to align elements in compliance with our grid, incorporate elements from our style guide, and most importantly, give us a more accurate picture of how the homepage will look.</p>
 			<p>This wireframe was kept monochromatic so that during review meetings, the focus would be kept on layout. Conversations about colors and background images would be saved for another date.</p>
@@ -91,13 +91,13 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg zero-padmarg">
+	<div class="row zero-margin zero-margin">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h3 class="section-title">Designing Concepts</h3>
 			<p>There were divergent viewpoints that we had wanted to implement. Because of this, we had created different concepts to show our senior stakeholders. These two early concepts were produced at the same time.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-5 col-md-offset-1">
 			<img src="http://placehold.it/668x800" class="" />
 			<p class="text-justify">This was my original concept. Based on the users we were targeting, I felt this design would be a better fit. It showed exactly what we had to offer and provided a direct path for users to follow. Also in this case, these users would be more likely to scroll than to outright abandon the page.</p>
@@ -109,7 +109,7 @@ $nav_bg = "bg-black"
 			<p>BUTTONS</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<p>After some compromises and iterations, the final design incorporated both aspects of the above comps.</p>
 		</div>
@@ -118,12 +118,12 @@ $nav_bg = "bg-black"
 
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<h3 class="section-title">Breaking Down the Final Design</h3>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class=" img-responsive" />
 		</div>
@@ -132,7 +132,7 @@ $nav_bg = "bg-black"
 			<p>We changed our banners and made them more brand focused. This quote from Gizmodo was meant to validate our brand by creating instant trust by association.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class=" img-responsive" />
 		</div>
@@ -141,7 +141,7 @@ $nav_bg = "bg-black"
 			<p>These competitive advantages supported the above banner copy. Its placement prominently above the fold gave really focused attention on the brand instead of product.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class=" img-responsive" />
 		</div>
@@ -150,7 +150,7 @@ $nav_bg = "bg-black"
 			<p>Each product button was enlarged significantly. We felt that this clean and simple button design would be less distracting to our users.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class=" img-responsive" />
 		</div>
@@ -159,7 +159,7 @@ $nav_bg = "bg-black"
 			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class=" img-responsive" />
 		</div>
@@ -168,7 +168,7 @@ $nav_bg = "bg-black"
 			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12">
 			[ BUTTON ]
 		</div>
@@ -176,12 +176,12 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<h3 class="section-title">A/B Testing</h3>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-4 col-md-offset-1">
 			<p>Finally, to validate the new design against our goals, we pit the new against the original. The initial results varied and for a while underperformed. But the data we were able to gather from these tests proved invaluable. This information allowed us to iterate until we produced a design that outperformed the original.</p>
 		</div>

@@ -21,10 +21,10 @@ $sub_dir = "no";
 	</div>
 </div>
 
-<div class="row zero-padmarg">
-	<div class="span12 text-center">
-		<h3 class="section-title">What We Do</h3>
-		<p class="fifty-padding-bottom">Our services are meant to bring value added results to your business.</p>
+<div class="row section-break zero-padmarg">
+	<div class="col-md-12 text-center">
+		<h3 class="what-we-do">Call to action</h3>
+		<p>Online digital experts with specializations in online marketing,<br />user experience design, web design, and search engine optimization.</p>
 	</div>
 </div>
 
@@ -43,27 +43,23 @@ $sub_dir = "no";
 	</a>
 </div>
 
-<div class="row zero-padmarg bg-black">
-	<div class="col-md-4 text-left">
-		<h3 class="section-title font-white">Work We've Done</h3>
-	</div>
-	<div class="col-md-8 text-right">
-		<p class="forty-padding-top font-white">Our services bring value added results to business.</p>
+
+<!-- <div class="row zero-padmarg">
+	<div class="col-md-12 text-center">
+		<h3 class="section-title">Work We've Done</h3>
 	</div>
 </div>
-
-
 <div class="row zero-padmarg">
 	<div class="span12"> 
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
+
 		  <ol class="carousel-indicators">
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 		  </ol>
 
-		  <!-- Wrapper for slides -->
+
 		  <div class="carousel-inner">
 		    <div class="item active">
 		    	<a href="">
@@ -90,11 +86,7 @@ $sub_dir = "no";
 
 		</div>
 	</div>
-
-
-
-	
-</div>
+</div> -->
 
 
 <div class="row zero-padmarg">

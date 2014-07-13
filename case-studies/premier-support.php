@@ -11,7 +11,7 @@ $nav_bg = "bg-black"
 
 
 <div class="container-fluid leader">
-	<div class="row zero-padmarg ">
+	<div class="row zero-margin ">
 		<div class="col-md-12">
 			<h3 class="leader-copy text-center">The Premier Support Landing Page: a UX Design Case Study</h3>
 		</div>
@@ -24,7 +24,7 @@ $nav_bg = "bg-black"
 			<h3 class="section-title">Setting Goals</h3>
 			<p>During brainstorming sessions, we were able to identify clear goals that we wanted the new design to accomplish.</p>
 		</div>
-		<div class="row zero-padmarg">
+		<div class="row zero-margin">
 			<div class="col-md-4 text-center">
 				<h4>No Website Presentation</h4>
 			</div>
@@ -39,12 +39,12 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-10 col-md-offset-1 text-center">
 			<h3 class="section-title">Paths to a Solution</h3>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/823x500" class=" " />
 		</div>
@@ -53,7 +53,7 @@ $nav_bg = "bg-black"
 			<p>Gathered user information, developed personas, researched product position and reviewed the competitive landscape.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg pad-alternate">
+	<div class="row zero-margin pad-alternate">
 		<div class="col-md-4 col-md-offset-1">
 			<h4 class="break">Easy to Find</h4>
 			<p>To get traffic and increase exposure, we placed a link front and center on the homepage. This</p>
@@ -62,7 +62,7 @@ $nav_bg = "bg-black"
 			<img src="http://placehold.it/823x500" class=" " />
 		</div>
 	</div>
-	<div class="row zero-padmarg pad-alternate">
+	<div class="row zero-margin pad-alternate">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/823x500" class=" " />
 		</div>
@@ -75,13 +75,13 @@ $nav_bg = "bg-black"
 
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg zero-padmarg">
+	<div class="row zero-margin zero-margin">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h3 class="section-title">Putting it Together</h3>
 			<p>Through peer reviews meetings, we produced several iterations until we had our final design.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-5 col-md-offset-1">
 			<img src="http://placehold.it/668x800" class="img-responsive" />
 			<p class="text-justify">This is the original concept. We reused page elements that are incorporated into other page designs - most notably from the Managed Hosting page. The result of this design was a long page with text heavy blocks.</p>
@@ -93,7 +93,7 @@ $nav_bg = "bg-black"
 			<p>BUTTONS</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<p>After some compromises and iterations, the final design incorporated both aspects of the above comps.</p>
 		</div>
@@ -155,12 +155,12 @@ $nav_bg = "bg-black"
 </div>
 
 <div class="container-fluid section-break case-border">
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12 text-center">
 			<h3 class="section-title">Breaking Down the Final Design</h3>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class="img-responsive" />
 		</div>
@@ -169,7 +169,7 @@ $nav_bg = "bg-black"
 			<p>Placed at the top and centered, our value proposition let our users know exactly what our service is about. We also included a United States icon to call out that our support team is 100% U.S. based.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class="img-responsive" />
 		</div>
@@ -178,7 +178,7 @@ $nav_bg = "bg-black"
 			<p>Here we addressed common pain points users have with typical support services from other companies. We also sought to validate our service using customer feedback and third party reviews.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class="img-responsive" />
 		</div>
@@ -187,7 +187,7 @@ $nav_bg = "bg-black"
 			<p>We placed a banner ad to showcase our other support resource. This extensive knowledgebase contains tutorials and other helpful sections that addresses common support questions.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class="img-responsive" />
 		</div>
@@ -196,7 +196,7 @@ $nav_bg = "bg-black"
 			<p>With customer testimonials, awards and ratings from reputable businesses, we went further to validate this service and showed that we have one of the best support teams in the industry.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg breakdown-break">
+	<div class="row zero-margin breakdown-break">
 		<div class="col-md-6 col-md-offset-1">
 			<img src="http://placehold.it/838x300" class="img-responsive" />
 		</div>
@@ -205,7 +205,7 @@ $nav_bg = "bg-black"
 			<p>These call to action provided a link into our Managed Hosting service. Also, we placed easy to identify information about how to contact our support team.</p>
 		</div>
 	</div>
-	<div class="row zero-padmarg">
+	<div class="row zero-margin">
 		<div class="col-md-12">
 			[ BUTTON ]
 		</div>
