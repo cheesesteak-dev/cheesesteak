@@ -3,6 +3,14 @@ body {
 	height: 100%;
 }
 
+p {
+	line-height: 1.8;
+}
+
+p + p {
+	margin-top: 36px;
+}
+
 nav.main {
 	height: 82px;
 	color: #fff;
@@ -11,6 +19,7 @@ nav.main {
 h2.logo {
 	color: #fff;
 	display: block;
+	font-size: 50px;
 	padding: 0 0 10px;
 	position: relative;
 }
@@ -19,12 +28,36 @@ h2.section-header {
 	margin-top: 40px;
 }
 
+h2.leaderboard {
+	font-size: 50px;
+	top: 30%;
+	position: relative;
+}
+
 .width100 {
 	width: 100%;
 }
 
+a.button {
+	color: #C11E00;
+	border: 3px solid #C11E00;
+	font-size: 27px;
+	display: inline-block;
+	margin: 20px 0 0;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.button:hover {
+	border: 3px solid #FF9C08;
+	color: #FF9C08;
+}
+
 ul.nav-header {
 	display: block;
+	padding-top: 18px;
 }
 
 ul.nav-header li {
@@ -37,6 +70,7 @@ ul.nav-header li {
 }
 
 ul.nav-header li a {
+	font-size: 20px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -45,6 +79,102 @@ ul.nav-header li a:hover {
 	color: orange;
 }
 
+img.icon {
+	margin-bottom: 30px;
+}
+
+img.icon + h4 {
+	font-size: 30px;
+}
+
+/* leaderboard backgrounds */
+
+.leader-bg {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left top;	
+	height: 100%;
+	position: relative;
+}
+
+.leader-case-study-imh-homepage {
+	background: url(http://placehold.it/1680x1200) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.description-spacing {
+	padding: 0 70px;
+}
+
+/* case study */
+
+.description-spacing > h3,
+.description-spacing > h4 {
+	margin-top: 0;
+}
+
+.case-border-design .description-spacing > h3,
+.case-border-design .description-spacing > p {
+	padding-top: 70px;
+}
+
+.breakdown-spacing {
+	padding: 0 0 30px;
+}
+
+
+/* design sprints */
+
+.process-section {
+	color: #fff;
+	padding: 125px 0;
+	width: 100%;
+	height: 400px;
+}
+
+.process-copy {
+	height: 150px;
+	text-align: center;
+}
+
+.col-md-9 .process-copy p {
+	color: #000;
+	padding-top: 11px;
+	text-align: left;
+}
+
+.process-copy img {
+	padding-bottom: 20px;
+}
+
+.process-copy p.heading {
+	font-size: 30px;
+}
+
+p.sub-heading {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.bg-step-one {
+	background: #c80000;
+}
+
+.bg-step-two {
+	background: #aa0000;
+}
+
+.bg-step-three {
+	background: #8c0000;
+}
+
+.bg-step-four {
+	background: #6e0000;
+}
+
+.bg-step-five {
+	background: #500000;
+}
 
 /* homepage */
 
@@ -52,15 +182,15 @@ ul.nav-header li a:hover {
 	height: 100%;
 }
 
+
 #homepage-leader {
     background-color: white;
 	background: url(../img/homepage-leader.jpg) 0 0 no-repeat;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: left top;
-
-	
 }
+
 
 #homepage-leader h3.leader-copy {
 	color: #ffffff;
@@ -105,15 +235,35 @@ dd h4.zero-padding {
 	padding: 0 50px;
 }
 
+/* padding-top*/
+.thirty-padding-top {
+	padding-top: 30px;
+}
+
 .forty-padding-top {
 	padding: 40px 0 0;
 }
+
+.seventy-padding-top {
+	padding-top: 70px;
+}
+
+/* padding-bottom*/
+
 .thirty-padding-bottom {
 	padding: 0 0 30px;
 }
 
 .fifty-padding-bottom {
 	padding: 0 0 50px;
+}
+
+.seventy-padding-bottom {
+	padding-bottom: 70px;
+}
+
+.hundred1-padding-bottom {
+	padding: 0 0 100px;
 }
 
 dl.dl-horizontal dd {
@@ -163,7 +313,7 @@ dl.dl-horizontal dd {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: left top;
-    height: 500px;
+    height: 100%;
     padding: 0;
 }
 
@@ -197,14 +347,14 @@ span.cta {
 	border: 4px solid black;
 }
 
-a.col-md-4 {
+a .col-md-4 {
 	/*border-bottom: 12px solid #000;*/
 	color: #000;
 	cursor: pointer;
 	padding: 90px 0;
 }
 
-a.col-md-4:hover {
+a .col-md-4:hover {
 	color: #fff;
 	text-decoration: none;
 }
@@ -219,28 +369,31 @@ p.services:hover {
 	opacity: 1;
 }
 
-.opacity0 {
-	opacity: 0;
-}
-
-.opacity1 {
-	opacity: 1;
-}
-
-
 /* font styling */
 
 p {
 	font-family: 'sinkin400', arial, sans-serif; 
-	font-size: 14px;
+	font-size: 18px;
 }
 
 h3.section-title,
+h3.section-title-text,
+h3.section-title-text-left,
 h3.what-we-do {
+	color: #0B2A47;
 	font-family: 'sinkin400', arial, sans-serif;
-	font-size: 30px;
+	font-size: 45px;
 	margin: 0;
-	padding: 40px 0 20px;
+	padding: 80px 0;
+}
+
+h3.section-title-text {
+	padding: 80px 0 40px;
+}
+
+h3.section-title-text-left {
+	color: #fff;
+	padding: 40px 0;
 }
 
 h3.what-we-do {
@@ -258,6 +411,11 @@ h4.heading {
 	font-family: 'sinkin300light', arial, sans-serif;
 	font-size: 27px;
 	padding: 0 0 30px;
+}
+
+h4.breakdown {
+	font-size: 27px;
+	padding: 0 0 14px;
 }
 
 .font-white {
@@ -306,7 +464,7 @@ a.bg-field-journal {
 }
 
 .section-break {
-	padding: 40px 0;
+	margin: 40px 0;
 }
 
 .three-up {
@@ -335,6 +493,10 @@ a.bg-field-journal {
 */
 .case-border {
 	border-top: 1px solid #d1d1d1;
+}
+
+.case-border-design {
+	border-top: 15px solid #000;
 }
 
 .col-md-compare {
