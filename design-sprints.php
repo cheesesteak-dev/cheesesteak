@@ -7,10 +7,12 @@ $sub_dir = "no";
 
 <body>
 
+<header id="header" class="header header--fixed hide-from-print" role="banner">
+	<?php include "_inc/main-nav.php"; ?>
+</header>
 
 <div class="container-fluid leader-bg leader-case-study-imh-homepage">
-<?php include "_inc/main-nav.php"; ?>
-			<h2 class="leaderboard text-center">My Design Sprints</h2>
+			<h2 class="leaderboard text-center font-white">My Design Sprint Process Inspired by<br />Stanfords d.school Design Thinking</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
 		</div>
@@ -65,7 +67,7 @@ $sub_dir = "no";
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
 					<p class="heading">Understanding</p>
-					<p class="sub-heading">Getting Shit Done</p>
+					<p class="sub-heading">Research, Research, Research</p>
 				</div>
 			</div>
 		</div>
@@ -88,7 +90,7 @@ $sub_dir = "no";
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
 					<p class="heading">Ideating</p>
-					<p class="sub-heading">Getting Shit Done</p>
+					<p class="sub-heading">Create Multiple Solutions</p>
 				</div>
 			</div>
 		</div>
@@ -111,7 +113,7 @@ $sub_dir = "no";
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
 					<p class="heading">Wireframing</p>
-					<p class="sub-heading">Getting Shit Done</p>
+					<p class="sub-heading">Layout Solutions</p>
 				</div>
 			</div>
 		</div>
@@ -134,7 +136,7 @@ $sub_dir = "no";
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
 					<p class="heading">Building</p>
-					<p class="sub-heading">Getting Shit Done</p>
+					<p class="sub-heading">Prototyping Designs</p>
 				</div>
 			</div>
 		</div>
@@ -157,7 +159,7 @@ $sub_dir = "no";
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
 					<p class="heading">Testing</p>
-					<p class="sub-heading">Getting Shit Done</p>
+					<p class="sub-heading">Validating Solutions</p>
 				</div>
 			</div>
 		</div>

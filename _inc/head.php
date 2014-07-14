@@ -16,6 +16,8 @@ if ($sub_dir == 'yes') {
 	    print "<link href='../css/bootstrap.css' rel='stylesheet'>\n";
 	    print "<link href='../css/style.css' rel='stylesheet'>\n";
 	    print "<link href='../fonts/fonts.css' rel='stylesheet'>\n";
+	    print "<!-- Headroom -->\n";
+	    print "<link href='../css/headroom.css' rel='stylesheet'>\n";
 }
 
 elseif ($sub_dir == 'no') {
@@ -23,6 +25,8 @@ elseif ($sub_dir == 'no') {
 	    print "<link href='css/bootstrap.css' rel='stylesheet'>\n";
 	    print "<link href='css/style.css' rel='stylesheet'>\n";
 	    print "<link href='fonts/fonts.css' rel='stylesheet'>\n";
+	    print "<!-- Headroom -->\n";
+	    print "<link href='css/headroom.css' rel='stylesheet'>\n";
 }
 	// if ($sub_dir="yes" && defined) {
 	// 	print "<link href='../css/bootstrap.css' rel='stylesheet'>";

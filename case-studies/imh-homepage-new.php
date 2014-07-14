@@ -7,9 +7,11 @@ $sub_dir = "yes";
 
 <body>
 
+<header id="header" class="header header--fixed hide-from-print" role="banner">
+	<?php include "../_inc/main-nav.php"; ?>
+</header>
 
 <div class="container-fluid leader-bg leader-case-study-imh-homepage">
-<?php include "../_inc/main-nav.php"; ?>
 			<h2 class="leaderboard text-center">InMotion Hosting Homepage Case Study</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">

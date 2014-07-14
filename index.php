@@ -1,6 +1,6 @@
 <?php 
 $sub_dir = "no";
-
+$nav_bg = "";
 
 ?>
 
@@ -8,39 +8,46 @@ $sub_dir = "no";
 
 <body>
 
-<div class="row zero-padmarg" id="homepage-leader">
+<header id="header" class="header header--fixed hide-from-print" role="banner">
+	<?php include "_inc/main-nav.php"; ?>
+</header>
 
-<?php include '_inc/main-nav.php' ?>
-
-	<div class="container zero-padding">
-		<div class="row">
-			<div class="col-md-12">
-				<h3 class="leader-copy text-center">We'll Help You Find Your Path to Success</h3>
-			</div>
+<div class="container-fluid leader-bg leader-bg-homepage">
+			<h2 class="leaderboard text-center font-white">We'll Help You Find Your Path to Success</h2>
+	<div class="row">
+		<div class="col-md-12 text-center">
 		</div>
 	</div>
 </div>
 
-<div class="row section-break zero-padmarg">
-	<div class="col-md-12 text-center">
-		<h3 class="what-we-do">Call to action</h3>
-		<p>Online digital experts with specializations in online marketing,<br />user experience design, web design, and search engine optimization.</p>
-	</div>
-</div>
 
-<div class="row zero-padmarg">
-	<a class="col-md-4 text-center bg-product">
-		<h4 class="heading">Product Design</h4>
-		<p>Creating products that solve problems</p>
-	</a>
-	<a class="col-md-4 text-center bg-ux">
-		<h4 class="heading">User Interface</h4>
-		<p>Designing websites</p>
-	</a>
-	<a class="col-md-4 text-center bg-ui">
- 		<h4 class="heading">User Experience</h4>
-		<p>Research &amp; Creating Engagement</p>
-	</a>
+<div class="container-fluid">
+	<div class="row thirty-padding-bottom">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h3 class="section-title-text">What We Do</h3>
+			<p>Headlamp is an online digital company specializing in creating user experiences, interfaces, and increasing online search presence</p>
+		</div>
+	</div>
+	<div class="row">
+		<a href="">
+			<div class="col-md-4 text-center zero-padmarg bg-product">
+				<h4 class="heading">Product Design</h4>
+				<p>Creating products that solve problems</p>
+			</div>
+		</a>
+		<a href="">
+			<div class="col-md-4 text-center zero-padmarg bg-ux">
+				<h4 class="heading">User Interface</h4>
+				<p>Designing websites</p>		
+			</div>
+		</a>
+		<a href="case-studies/imh-homepage-new.php">
+			<div class="col-md-4 text-center zero-padmarg bg-ui">
+		 		<h4 class="heading">User Experience</h4>
+				<p>Research &amp; Creating Engagement</p>
+			</div>
+		</a>
+	</div>
 </div>
 
 
@@ -92,7 +99,7 @@ $sub_dir = "no";
 <div class="row zero-padmarg">
 	<a href="" class="bg-field-journal">
 		<div class="col-md-6 text-center">
-			<h3 class="section-title">Our Field Journal</h3>
+			<h3 class="section-title-text">Our Field Journal</h3>
 			<p class="gateway">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -103,7 +110,7 @@ $sub_dir = "no";
 	</a>
 	<a href="">
 		<div class="col-md-6 text-center">
-			<h3 class="section-title">Concepts We've Designed</h3>
+			<h3 class="section-title-text">Concepts We've Designed</h3>
 			<p class="gateway">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
