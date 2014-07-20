@@ -1,215 +1,270 @@
 <?php 
 $sub_dir = "yes";
-$nav_bg = "bg-black"
+$active = "";
+$bg = "";
+// $nav_bg = "bg-black"
 ?>
 
-	<?php include '../_inc/head.php' ?>
+<?php include '../_inc/head.php' ?>
 
 <body>
 
-<?php include "../_inc/main-nav.php"; ?>
-
-<div class="container-fluid leader">
-	<div class="row zero-margin ">
-		<div class="col-md-12">
-			<h3 class="leader-copy text-center">Case Study: Corporate Homepage</h3>
-		</div>
-	</div>
-</div>
-<div class="container-fluid section-break case-border">
-	<div class="row zero-margin">
+<header id="header" class="header header--fixed hide-from-print" role="banner">
+	<?php include "../_inc/main-nav.php"; ?>
+</header>
+ 
+<div class="container-fluid leader-bg leader-case-study-imh-homepage case-border-bottom">
+			<h2 class="leaderboard text-center">Product Design Case Study</h2>
+	<div class="row">
 		<div class="col-md-12 text-center">
-			<h3 class="section-title">What We Do</h3>
-			<p class="fifty-padding-bottom">Our services are meant to bring value added results to your business.</p>
 		</div>
-	</div>
-	<div class="row zero-margin">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/823x500" class=" img-responsive" />
-		</div>
-		<div class="col-md-4">
-			<p>After sitting on the same design since 2007, we finally launched a redesigned website.</p>
-			<p>With it brought an updated style guide, a fresh design, and of course a whole new experience. Also included was about 75% of the original copy throughout the site. What resulted was inconsistent experiences since the copy was not properly matching up with the new user flows.</p>
-			<p>We had decided to tackle this page to improve the user experience through new copy and an overall design update.</p>
-			<p>Tasked as the lead, it would be up to me to improve the user experience. This case study is an overview of the work I did to get to my end goal. In the end, it took about 2 weeks to come up with a finalized design, and another few months to iterate a winning design.</p>
+		<div id="button">
+
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid">
-	<div class="row three-up">
-		<div class="col-md-12 text-center">
-			<h3 class="section-title">Setting Goals</h3>
-			<p>During brainstorming sessions, we were able to identify clear goals that we wanted the new design to accomplish.</p>
-		</div>
-		<div class="row zero-margin">
-			<div class="col-md-4 text-center">
-				<h4>Improve Conversion</h4>
-			</div>
-			<div class="col-md-4 text-center">
-				<h4>Increase Engagement</h4>
-			</div>
-			<div class="col-md-4 text-center">
-				<h4>Build Trust</h4>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid section-break">
-	<div class="row zero-margin">
-		<div class="col-md-12 text-center">
-			<h3 class="section-title">Ideating Concepts</h3>
-		</div>
-	</div>
-	<div class="row zero-margin">
-	<div class="col-md-6 col-md-offset-1">
-		<img src="http://placehold.it/823x500" class=" img-responsive" />
-	</div>
-		<div class="col-md-4">
-			<p>Using the whiteboard, I wrote out our target personas, created user stories, drew out user funnels, laid out content flows, mapped exit paths, and put my ideas up front and center.</p>
-			<p>This allowed me to organize my ideas and data so that I can easily guide my team in our feedback meetings. In these meetings, I walked the team through user stories and guided them through various scenarios. This helped validate my ideas.</p>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid section-break case-border">
-	<div class="row zero-margin zero-margin">
-		<div class="col-md-12 text-center">
-			<h2>Wireframing</h2>
-		</div>
-	</div>
-	<div class="row zero-margin">
-		<div class="col-md-4 col-md-offset-1">
-			<p>I transferred my whiteboard designs into a digital version. This wireframing allowed me to align elements in compliance with our grid, incorporate elements from our style guide, and most importantly, give us a more accurate picture of how the homepage will look.</p>
-			<p>This wireframe was kept monochromatic so that during review meetings, the focus would be kept on layout. Conversations about colors and background images would be saved for another date.</p>
-		</div>
-		<div class="col-md-6">
-			<img src="http://placehold.it/823x500" class=" img-responsive" />
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid section-break case-border">
-	<div class="row zero-margin zero-margin">
+<div class="container-fluid fifty-padding-bottom" id="myDiv">
+	<div class="row zero-padmarg">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<h3 class="section-title">Designing Concepts</h3>
+
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+			<a href="" class="button">See The Design</a>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid bg-f4">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="section-title">Goals</h3>
+		</div>
+	</div>
+	<div class="row text-center hundred1-padding-bottom">
+		<div class="col-md-4">
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Left Column</h4>
+			<p>Some Short Text</p>
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Middle Column</h4>
+			<p>Some short text</p>
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Right Column</h4>
+			<p>Some short text</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid seventy-padding-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="section-title">Putting Concepts Together</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5 description-spacing">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="" class="button">Learn More</a>
+		</div>
+		<div class="col-md-7 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/ideating-concepts.jpg" class="img-responsive" />
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid seventy-padding-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="section-title">Wireframing</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-7 zero-padmarg">
+				<img src="../img/case-studies/imh-homepage/wireframing-1.jpg" class="img-responsive" />
+		</div>
+		<div class="col-md-5 description-spacing">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid bg-f4">
+	<div class="row text-center">
+		<div class="col-md-8 col-md-offset-2">
+			<h3 class="section-title">Design Iterations</h3>
+
+<!-- HTML to write -->
+
+
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-1.jpg" class="img-responsive" />
+			</button>
+		</div>
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-2.jpg" class="img-responsive" />
+			</button>
+
+		</div>
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-3.jpg" class="img-responsive" />
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-4.jpg" class="img-responsive" />
+			</button>
+		</div>
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-5.jpg" class="img-responsive" />
+			</button>
+		</div>
+		<div class="col-md-4 zero-padmarg">
+			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
+				<img src="../img/case-studies/imh-homepage/iteration-6.jpg" class="img-responsive" />
+				
+			</button>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid seventy-padding-bottom">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h3 class="section-title-text">Divergent Ideas</h3>
 			<p>There were divergent viewpoints that we had wanted to implement. Because of this, we had created different concepts to show our senior stakeholders. These two early concepts were produced at the same time.</p>
 		</div>
 	</div>
-	<div class="row zero-margin">
-		<div class="col-md-5 col-md-offset-1">
-			<img src="http://placehold.it/668x800" class="" />
-			<p class="text-justify">This was my original concept. Based on the users we were targeting, I felt this design would be a better fit. It showed exactly what we had to offer and provided a direct path for users to follow. Also in this case, these users would be more likely to scroll than to outright abandon the page.</p>
-			<p>BUTTONS</p>
+	<div class="row">
+		<div class="col-md-6 zero-padmarg text-center">
+			<img src="../img/case-studies/imh-homepage/diverge-1.jpg" class="img-responsive icon" />
+			<p class="description-spacing">This was my original concept. Based on the users we were targeting, I felt this design would be a better fit. It showed exactly what we had to offer and provided a direct path for users to follow. Also in this case, these users would be more likely to scroll than to outright abandon the page.</p>
 		</div>
-		<div class="col-md-5">
-			<img src="http://placehold.it/668x800" class="" />
-			<p class="text-justify">This design was created to placate some concerns – which was that the original design did not properly convey the brand. Especially of concern was the lack of trust builders and competitive advantages above the fold. This design incorporated all of those elements.</p>
-			<p>BUTTONS</p>
-		</div>
-	</div>
-	<div class="row zero-margin">
-		<div class="col-md-12 text-center">
-			<p>After some compromises and iterations, the final design incorporated both aspects of the above comps.</p>
+		<div class="col-md-6 zero-padmarg text-center">
+			<img src="../img/case-studies/imh-homepage/diverge-2.jpg" class="img-responsive icon" />
+			<p class="description-spacing">This design was created to placate some concerns – which was that the original design did not properly convey the brand. Especially of concern was the lack of trust builders and competitive advantages above the fold. This design incorporated all of those elements.</p>
 		</div>
 	</div>
 </div>
 
-
-<div class="container-fluid section-break case-border">
-	<div class="row zero-margin">
+<div class="container-fluid bg-f4">
+	<div class="row">
 		<div class="col-md-12 text-center">
-			<h3 class="section-title">Breaking Down the Final Design</h3>
+			<h3 class="section-title">Goals Acheived</h3>
 		</div>
 	</div>
-	<div class="row zero-margin breakdown-break">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/838x300" class=" img-responsive" />
+	<div class="row text-center seventy-padding-bottom">
+		<div class="col-md-4">
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Left Column</h4>
+			<p>Some Short Text</p>
 		</div>
 		<div class="col-md-4">
-			<h4 class="break">New Sliders</h4>
-			<p>We changed our banners and made them more brand focused. This quote from Gizmodo was meant to validate our brand by creating instant trust by association.</p>
-		</div>
-	</div>
-	<div class="row zero-margin breakdown-break">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/838x300" class=" img-responsive" />
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Middle Column</h4>
+			<p>Some short text</p>
 		</div>
 		<div class="col-md-4">
-			<h4 class="break">Competitive Advantages</h4>
-			<p>These competitive advantages supported the above banner copy. Its placement prominently above the fold gave really focused attention on the brand instead of product.</p>
-		</div>
-	</div>
-	<div class="row zero-margin breakdown-break">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/838x300" class=" img-responsive" />
-		</div>
-		<div class="col-md-4">
-			<h4 class="break">Product Navigation</h4>
-			<p>Each product button was enlarged significantly. We felt that this clean and simple button design would be less distracting to our users.</p>
-		</div>
-	</div>
-	<div class="row zero-margin breakdown-break">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/838x300" class=" img-responsive" />
-		</div>
-		<div class="col-md-4">
-			<h4 class="break">Trust Builders</h4>
-			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
-		</div>
-	</div>
-	<div class="row zero-margin breakdown-break">
-		<div class="col-md-6 col-md-offset-1">
-			<img src="http://placehold.it/838x300" class=" img-responsive" />
-		</div>
-		<div class="col-md-4">
-			<h4 class="break">Friendly Faces</h4>
-			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
-		</div>
-	</div>
-	<div class="row zero-margin">
-		<div class="col-md-12">
-			[ BUTTON ]
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid section-break case-border">
-	<div class="row zero-margin">
-		<div class="col-md-12 text-center">
-			<h3 class="section-title">A/B Testing</h3>
-		</div>
-	</div>
-	<div class="row zero-margin">
-		<div class="col-md-4 col-md-offset-1">
-			<p>Finally, to validate the new design against our goals, we pit the new against the original. The initial results varied and for a while underperformed. But the data we were able to gather from these tests proved invaluable. This information allowed us to iterate until we produced a design that outperformed the original.</p>
-		</div>
-		<div class="col-md-6">
-			<img src="http://placehold.it/823x500" class=" img-responsive" />
+			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
+			<h4>Right Column</h4>
+			<p>Some short text</p>
 		</div>
 	</div>
 </div>
 
 <div class="container-fluid">
-	<div class="row three-up">
+	<div class="row">
 		<div class="col-md-12 text-center">
-			<h3 class="section-title">Setting Goals</h3>
-			<p>During brainstorming sessions, we were able to identify clear goals that we wanted the new design to accomplish.</p>
+			<h3 class="section-title">Final Design Breakdown</h3>
 		</div>
-		<div class="col-md-4 text-center">
-			<h4>Data Analysis</h4>
+	</div>
+	<div class="row breakdown-spacing breakdown-spacing">
+		<div class="col-md-6 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/breakdown-1.jpg" class="img-responsive" />
 		</div>
-		<div class="col-md-4 text-center">
-			<h4>Workting with Executives</h4>
+		<div class="col-md-6 description-spacing">
+			<h4 class="breakdown">New Slider</h4>
+			<p>We changed our banners and made them more brand focused. This quote from Gizmodo was meant to validate our brand by creating instant trust by association.</p>
 		</div>
-		<div class="col-md-4 text-center">
-			<h4>Extensive Copywriting</h4>
+	</div>
+	<div class="row breakdown-spacing">
+		<div class="col-md-6 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/breakdown-2.jpg" class="img-responsive" />
+		</div>
+		<div class="col-md-6 description-spacing">
+			<h4 class="breakdown">Product Navigation</h4>
+			<p>Each product button was enlarged significantly. We felt that this clean and simple button design would be less distracting to our users.</p>
+		</div>
+	</div>
+	<div class="row breakdown-spacing">
+		<div class="col-md-6 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/breakdown-3.jpg" class="img-responsive" />
+		</div>
+		<div class="col-md-6 description-spacing">
+			<h4 class="breakdown">Competitive Advantages</h4>
+			<p>These competitive advantages supported the above banner copy. Its placement prominently above the fold gave really focused attention on the brand instead of product.</p>
+		</div>
+	</div>
+	<div class="row breakdown-spacing">
+		<div class="col-md-6 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/breakdown-4.jpg" class="img-responsive" />
+		</div>
+		<div class="col-md-6 description-spacing">
+			<h4 class="breakdown">Trust Builders</h4>
+			<p>Even more trust builders. Here we devoted even more space about our brand. During the design phase, my concern was a lack of product exposure on the site. However, it was felt that this section was needed.</p>
+		</div>
+	</div>
+	<div class="row breakdown-spacing">
+		<div class="col-md-6 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/breakdown-5.jpg" class="img-responsive" />
+		</div>
+		<div class="col-md-6 description-spacing">
+			<h4 class="breakdown">Friendly Faces</h4>
+			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
 		</div>
 	</div>
 </div>
 
-	<?php include '../_inc/footer.php' ?>
+<?php include '../_inc/footer.php' ?>
 
 </body>
 </html>

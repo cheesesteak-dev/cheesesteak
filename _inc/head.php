@@ -13,7 +13,7 @@
 
 if ($sub_dir == 'yes') {
 	    print "<!-- Bootstrap -->\n";
-	    print "<link href='../css/bootstrap.css' rel='stylesheet'>\n";
+	    print "<link href='../css/bootstrap.min.css' rel='stylesheet'>\n";
 	    print "<link href='../css/style.css' rel='stylesheet'>\n";
 	    print "<link href='../fonts/fonts.css' rel='stylesheet'>\n";
 	    print "<!-- Headroom -->\n";
@@ -22,7 +22,7 @@ if ($sub_dir == 'yes') {
 
 elseif ($sub_dir == 'no') {
 	    print "<!-- Bootstrap -->\n";
-	    print "<link href='css/bootstrap.css' rel='stylesheet'>\n";
+	    print "<link href='css/bootstrap.min.css' rel='stylesheet'>\n";
 	    print "<link href='css/style.css' rel='stylesheet'>\n";
 	    print "<link href='fonts/fonts.css' rel='stylesheet'>\n";
 	    print "<!-- Headroom -->\n";

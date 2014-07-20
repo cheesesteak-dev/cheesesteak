@@ -1,4 +1,4 @@
-/**
+*
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
  */
@@ -36,7 +36,8 @@ h2.logo {
 	color: #fff;
 	display: block;
 	font-size: 30px;
-	padding: 0 0 10px;
+	margin: 0;
+	padding: 20px 0;
 	position: relative;
 }
 
@@ -81,6 +82,23 @@ a.button {
 a.button:hover {
 	border: 3px solid #FF9C08;
 	color: #FF9C08;
+	transition: color .15s linear,
+		border .15s linear;
+}
+
+.btnTool {
+	border: 1px solid #fff;
+}
+
+.btnTool:hover {
+	border: 1px solid #ff0000;
+	transition: border-color .5s linear;
+}
+
+.btn-defaultTool {
+	background: #fff;
+	padding: 0;
+	border: none;	
 }
 
 ul.nav-header {
@@ -93,7 +111,7 @@ ul.nav-header li {
 	font-family: 'sinkin200', arial;
 	font-size: 12px;
 	list-style-type: none;
-	margin: 25px 0 0;
+	margin: 29px 0 0;
 	padding: 0 0 0 50px;
 }
 
@@ -104,14 +122,20 @@ ul.nav-header li a {
 }
 
 ul.nav-header li a:hover {
+	transition: color 0.2s linear;
 	color: #FFA200;
+}
+
+ul.nav-header li a.active {
+	color: red;
 }
 
 img.icon {
 	margin-bottom: 30px;
 }
 
-img.icon + h4 {
+img.icon + h4,
+img + h4 {
 	font-size: 30px;
 }
 
@@ -122,16 +146,17 @@ img.icon + h4 {
     background-repeat: no-repeat;
     background-position: left top;	
 	height: 100%;
+	margin-top: 77px;
 	position: relative;
 }
 
 .leader-case-study-imh-homepage {
-	background: url(http://placehold.it/1680x1200) 0 0 no-repeat;
-    background-size: 100% 100%;
+	background: url(../img/case-studies/imh-homepage/homepage-cover.jpg) 0 0 no-repeat;
+    background-size: 100%;
 }
 
 .leader-bg-homepage {
-	background: url(../img/homepage-leader.jpg) 0 0 no-repeat;
+	background: url(../img/case-studies/imh-homepage/homepage-cover.jpg) 0 0 no-repeat;
     background-size: 100% 100%;
 }
 
@@ -149,6 +174,22 @@ img.icon + h4 {
 
 .description-spacing {
 	padding: 0 70px;
+}
+
+#button {
+	background: url(../img/scroll-button.png) 0 0 no-repeat;
+	display: block;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 15%;
+	width: 50px;
+	cursor: pointer;
+}
+
+#myDiv {
+	padding-top: 50px;
 }
 
 /* case study */
@@ -381,9 +422,26 @@ a .col-md-4 {
 	padding: 90px 0;
 }
 
-a .col-md-4:hover {
+a .col-md-4:hover,
+a .col-md-4 p.heading:hover {
 	color: #fff;
 	text-decoration: none;
+	transition: color .10s linear;
+}
+
+p.heading,
+h4.heading {
+	font-family: 'sinkin300light', arial, sans-serif;
+	font-size: 27px;
+	padding: 0 0;
+}
+
+h4.heading {
+	padding-bottom: 40px;
+}
+
+p.heading + p {
+	margin: 0;
 }
 
 p.services {
@@ -434,15 +492,10 @@ h3.what-we-do + p {
 	padding-bottom: 60px;
 }
 
-h4.heading {
-	font-family: 'sinkin300light', arial, sans-serif;
-	font-size: 27px;
-	padding: 0 0 30px;
-}
+
 
 h4.breakdown {
 	font-size: 27px;
-	padding: 0 0 14px;
 }
 
 .font-white {
@@ -513,6 +566,25 @@ a.bg-field-journal {
 
 }
 
+/* product design */
+
+.bg-ps,
+.bg-mh {
+	padding: 60px 0;
+}
+
+.bg-ps {
+	background: rgb(236,236,236);
+}
+
+.bg-mh {
+	background: rgb(214,214,214);
+}
+
+img.pd {
+	padding: 0 15px;
+}
+
 /*.col-md-offset-1 > h4.break, 
 .col-md-offset-1 > p {
 	margin-left: 15px;
@@ -524,6 +596,10 @@ a.bg-field-journal {
 
 .case-border-design {
 	border-top: 15px solid #000;
+}
+
+.case-border-bottom {
+	border-bottom: 1px solid #d1d1d1;
 }
 
 .col-md-compare {
@@ -576,4 +652,4 @@ h2.logo {
 }
 
 
-}/* end mobile media screen */
+}/* end mobile media screen 

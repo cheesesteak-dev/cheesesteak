@@ -1,5 +1,7 @@
 <?php 
 $sub_dir = "no";
+$active = "yes";
+$bg = "active";
 // $nav_bg = "bg-black"
 ?>
 

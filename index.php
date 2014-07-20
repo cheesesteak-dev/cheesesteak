@@ -1,7 +1,7 @@
 <?php 
 $sub_dir = "no";
-$nav_bg = "";
 
+$active = "no";
 ?>
 
 <?php include '_inc/head.php' ?>
@@ -29,21 +29,21 @@ $nav_bg = "";
 		</div>
 	</div>
 	<div class="row">
-		<a href="">
+		<a href="case-studies/product-design.php">
 			<div class="col-md-4 text-center zero-padmarg bg-product">
-				<h4 class="heading">Product Design</h4>
+				<p class="heading">Product Design</p>
 				<p>Creating products that solve problems</p>
 			</div>
 		</a>
 		<a href="">
 			<div class="col-md-4 text-center zero-padmarg bg-ux">
-				<h4 class="heading">User Interface</h4>
+				<p class="heading">User Interface</p>
 				<p>Designing websites</p>		
 			</div>
 		</a>
-		<a href="case-studies/imh-homepage-new.php">
+		<a href="case-studies/imh-homepage.php">
 			<div class="col-md-4 text-center zero-padmarg bg-ui">
-		 		<h4 class="heading">User Experience</h4>
+		 		<p class="heading">User Experience</p>
 				<p>Research &amp; Creating Engagement</p>
 			</div>
 		</a>

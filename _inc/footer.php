@@ -53,4 +53,14 @@ elseif ($sub_dir == 'no') {
     }).init();
 
 }());
+
+  $(document).ready(function() {
+    $('[data-toggle=tooltip]').tooltip();
+}); 
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myDiv").offset().top
+    }, 1000);
+});
 </script>
