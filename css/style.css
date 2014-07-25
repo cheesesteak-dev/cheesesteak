@@ -199,7 +199,7 @@ img + h4 {
 	border: 2px solid #000;
 	display: block;
 	width: 50px;
-	line-height: 1;
+	line-height: 1.2;
 	height: 50px;
 	position: absolute;
 	left: 50%;
@@ -220,6 +220,8 @@ img + h4 {
 #myDiv {
 	padding-top: 50px;
 }
+
+
 
 /* case study */
 
@@ -442,8 +444,19 @@ span.cta {
 a .col-md-4 {
 	/*border-bottom: 12px solid #000;*/
 	color: #000;
-	cursor: pointer;
-	padding: 90px 0;
+	/*cursor: pointer;*/
+	padding: 40px 0;
+}
+
+a .col-md-4 span.link {
+	font-size: 16px;
+	line-height: 3.5;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+a .col-md-4 span.link:hover {
+	border: 1px solid #ffffff;
 }
 
 a .col-md-4:hover,
@@ -557,7 +570,7 @@ img.polaroid {
 	background-color: #f4f4f4;
 }
 
-a.bg-field-journal {
+a .bg-blog {
 	background: red;
 }
 
