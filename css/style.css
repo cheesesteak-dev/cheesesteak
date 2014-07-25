@@ -67,6 +67,10 @@ h2.leaderboard {
 	width: 100%;
 }
 
+h4 {
+	font-family: 'sinkin400', arial, sans-serif;
+}
+
 a.button {
 	color: #C11E00;
 	border: 3px solid #C11E00;
@@ -130,12 +134,24 @@ ul.nav-header li a.active {
 	color: red;
 }
 
+img.round-bg {
+	background: #20293f;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	box-shadow: 1px 1px 3px #A9AAA0;
+	height: 100px;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 100px;
+}
+
 img.icon {
 	margin-bottom: 30px;
 }
 
 img.icon + h4,
 img + h4 {
+	font-family: 'sinkin400', arial, sans-serif;
 	font-size: 30px;
 }
 
@@ -177,15 +193,28 @@ img + h4 {
 }
 
 #button {
-	background: url(../img/scroll-button.png) 0 0 no-repeat;
+	/*background: url(../img/scroll-button.png) 0 0 no-repeat;*/
+	color: #000;
+	font-size: 40px;
+	border: 2px solid #000;
 	display: block;
+	width: 50px;
+	line-height: 1;
 	height: 50px;
 	position: absolute;
 	left: 50%;
+	border-radius: 100%;
 	margin-left: -25px;
 	bottom: 15%;
-	width: 50px;
+	text-align: center;
 	cursor: pointer;
+}
+
+#button:hover {
+	border-color: orange;
+	color: orange;
+	transition: border-color .4s ease,
+		color .4s ease;
 }
 
 #myDiv {
@@ -266,11 +295,6 @@ p.sub-heading {
 
 #homepage-leader {
 	height: 100%;
-}
-
-#homepage-footer {
-	background: #343838;
-	height: 280px;
 }
 
 #bg-black {
@@ -457,7 +481,7 @@ p.services:hover {
 /* font styling */
 
 p {
-	font-family: 'sinkin400', arial, sans-serif; 
+	font-family: 'sinkin200', arial, sans-serif; 
 	font-size: 18px;
 }
 
@@ -466,7 +490,7 @@ h3.section-title-text,
 h3.section-title-text-left,
 h3.what-we-do {
 	color: #0B2A47;
-	font-family: 'sinkin400', arial, sans-serif;
+	font-family: 'sinkin300light', arial, sans-serif;
 	font-size: 45px;
 	margin: 0;
 	padding: 80px 0;
@@ -495,6 +519,7 @@ h3.what-we-do + p {
 
 
 h4.breakdown {
+	font-family: 'sinkin300light', arial, sans-serif;
 	font-size: 27px;
 }
 
@@ -607,16 +632,51 @@ img.pd {
 	padding-left: 20%;
 }
 
+footer {
+	background: #343838;
+	color: #ffffff;
+	font-size: 14px;
+	height: 150px;
+	line-height: 1.4;
+	padding: 30px 0 0;
+}
+footer h3 {
+	font-family: 'sinkin400', arial, sans-serif;
+	font-size: 18px;
+	color: #ddd;
+}
+
+footer p {
+	font-family: 'sinkin200', arial, sans-serif;
+	font-size: 15px;
+}
+
+footer p + p {
+	margin-top: 14px;
+}
+
+footer a {
+	color: green;
+	font-style: italic;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+
 /* ------------------ */
 /* ----- TABLET ----- */
 /* ------------------ */
 
 @media screen and (max-width: 640px) {
 
-#homepage-leader {
-	height: 400px;
-}
+	#homepage-leader {
+		height: 400px;
+	}
 
+	img.round-bg + img.round-bg {
+		padding-top: 30px;
+	}
 
 }/* end tablet media screen */
 
@@ -627,29 +687,34 @@ img.pd {
 
 @media screen and (max-width: 640px) {
 
-nav.main {
-	height: auto;
-	text-align: center;
-}			
+	nav.main {
+		height: auto;
+		text-align: center;
+	}			
 
-ul.nav-header {
-	margin-right: 50px;
-}
+	ul.nav-header {
+		margin-right: 50px;
+	}
 
-ul.nav-header li {
-	margin: 0;
-	padding: 0;
-	width: 100%;
+	ul.nav-header li {
+		margin: 0;
+		padding: 0;
+		width: 100%;
 
-}
+	}
 
-h2.logo {
-	text-align: center;
-}
+	h2.logo {
+		text-align: center;
+	}
 
-#homepage-leader {
-	height: auto;
-}
+	#homepage-leader {
+		height: auto;
+	}
+
+	img.round-bg + img.round-bg {
+		margin-top: 30px;
+	}
+
 
 
 }/* end mobile media screen 

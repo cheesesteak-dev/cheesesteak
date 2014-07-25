@@ -13,16 +13,19 @@ $bg = "active";
 	<?php include "_inc/main-nav.php"; ?>
 </header>
 
-<div class="container-fluid leader-bg leader-case-study-imh-homepage">
-			<h2 class="leaderboard text-center font-white">My Design Sprint Process Inspired by<br />Stanfords d.school Design Thinking</h2>
+<div class="container-fluid leader-bg leader-case-study-imh-homepage case-border-bottom">
+			<h2 class="leaderboard text-center">My Design Sprint Process Inspired by<br />Stanfords d.school Design Thinking</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
+		</div>
+		<div id="button">
+			&or;
 		</div>
 	</div>
 </div>
 
  
-<div class="container-fluid section-break">
+<div class="container-fluid section-break" id="myDiv">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

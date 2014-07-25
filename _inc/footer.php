@@ -1,17 +1,16 @@
 <footer>
-<div class="row zero-padmarg" id="homepage-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9">
-				here is all the stuff.
-			</div>
-			<div class="col-md3">
-
-			</div>
-
+<div class="container-fluid">
+  <div class="row" id="homepage-footer">
+		<div class="col-md-5 col-md-offset-1">
+			<h3>Let's talk about what Headlamp can do for you. </h3>
+      <p>email: <a href="mailto:hello@headlamp.us">hello@headlamp.us</a><br />
+      twitter: <a href="https://twitter.com/headlampDesign">@headlampDesign</a></p>
 		</div>
-	</div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+  </div>
 </div>
+
 </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

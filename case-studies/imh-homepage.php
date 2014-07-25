@@ -14,12 +14,12 @@ $bg = "";
 </header>
  
 <div class="container-fluid leader-bg leader-case-study-imh-homepage case-border-bottom">
-			<h2 class="leaderboard text-center">Product Design Case Study</h2>
+			<h2 class="leaderboard text-center">UX Design Case Study:<br />Homepage Optimization</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
 		</div>
 		<div id="button">
-
+		&or;
 		</div>
 	</div>
 </div>
@@ -27,12 +27,7 @@ $bg = "";
 <div class="container-fluid fifty-padding-bottom" id="myDiv">
 	<div class="row zero-padmarg">
 		<div class="col-md-8 col-md-offset-2 text-center">
-
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.</p>
+			<p>We had decided to tackle this page to improve the user experience through new copy and an overall design update. Tasked as the lead, it would be up to me to improve the user experience. This case study is an overview of the work I did to get to my end goal. In the end, it took about 2 weeks to come up with a finalized design, and another few months to iterate a winning design.</p>
 			<a href="" class="button">See The Design</a>
 		</div>
 	</div>
@@ -46,47 +41,16 @@ $bg = "";
 	</div>
 	<div class="row text-center hundred1-padding-bottom">
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Left Column</h4>
-			<p>Some Short Text</p>
+			<img src="http://about.johndquan.com/_img/icons/icon-conversion.png" class="icons round-bg">
+			<h4>Improve Conversion</h4>
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Middle Column</h4>
-			<p>Some short text</p>
+			<img src="http://about.johndquan.com/_img/icons/icon-engagement.png" class="icons round-bg" />
+			<h4>Increase Engagement</h4>
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Right Column</h4>
-			<p>Some short text</p>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid seventy-padding-bottom">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h3 class="section-title">Putting Concepts Together</h3>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-5 description-spacing">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<a href="" class="button">Learn More</a>
-		</div>
-		<div class="col-md-7 zero-padmarg">
-			<img src="../img/case-studies/imh-homepage/ideating-concepts.jpg" class="img-responsive" />
+			<img src="http://about.johndquan.com/_img/icons/icon-trust.png" class="icons round-bg" />
+			<h4>Build Trust</h4>
 		</div>
 	</div>
 </div>
@@ -102,21 +66,29 @@ $bg = "";
 				<img src="../img/case-studies/imh-homepage/wireframing-1.jpg" class="img-responsive" />
 		</div>
 		<div class="col-md-5 description-spacing">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Using the whiteboard, I wrote out our target personas, created user stories, drew out user funnels, laid out content flows, mapped exit paths, and put my ideas up front and center.</p>
+			<p>This allowed me to organize my ideas and data so that I can easily guide my team in our feedback meetings. In these meetings, I walked the team through user stories and guided them through various scenarios. This helped validate my ideas.</p>
 		</div>
 	</div>
 </div>
+
+<div class="container-fluid seventy-padding-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="section-title">Putting Wireframes Together</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5 description-spacing">
+			<p>I transferred my whiteboard designs into a digital version. This wireframing allowed me to align elements in compliance with our grid, incorporate elements from our style guide, and most importantly, give us a more accurate picture of how the homepage will look.</p>
+			<p>This wireframe was kept monochromatic so that during review meetings, the focus would be kept on layout. Conversations about colors and background images would be saved for another date.</p>
+		</div>
+		<div class="col-md-7 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/ideating-concepts.jpg" class="img-responsive" />
+		</div>
+	</div>
+</div>
+
 
 <div class="container-fluid bg-f4">
 	<div class="row text-center">
@@ -169,7 +141,7 @@ $bg = "";
 
 <div class="container-fluid seventy-padding-bottom">
 	<div class="row">
-		<div class="col-md-8 col-md-offset-2 text-center">
+		<div class="col-md-8 col-md-offset-2 text-center thirty-padding-bottom">
 			<h3 class="section-title-text">Divergent Ideas</h3>
 			<p>There were divergent viewpoints that we had wanted to implement. Because of this, we had created different concepts to show our senior stakeholders. These two early concepts were produced at the same time.</p>
 		</div>
@@ -188,25 +160,23 @@ $bg = "";
 
 <div class="container-fluid bg-f4">
 	<div class="row">
-		<div class="col-md-12 text-center">
-			<h3 class="section-title">Goals Acheived</h3>
+		<div class="col-md-8 col-md-offset-2 text-center thirty-padding-bottom">
+			<h3 class="section-title-text">Key Takeaways</h3>
+			<p>This had been my first large scale project high stakes. Since this page had the bulk of our traffic and most of that was from new visits, there was a lot riding on my designs and assumptions. In the end, I had learned the value of persistence, evaluating feedback, and above all patience.</p>
 		</div>
 	</div>
 	<div class="row text-center seventy-padding-bottom">
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Left Column</h4>
-			<p>Some Short Text</p>
+			<img src="http://about.johndquan.com/_img/icons/icon-data-analysis.png" class="icons round-bg" />
+			<h4>Data Analysis</h4>
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Middle Column</h4>
-			<p>Some short text</p>
+			<img src="http://about.johndquan.com/_img/icons/icon-executives.png" class="icons round-bg" />
+			<h4>Working with Executives</h4>
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/100x100" class="img-responsive center-block icon" />
-			<h4>Right Column</h4>
-			<p>Some short text</p>
+			<img src="http://about.johndquan.com/_img/icons/icon-pen.png" class="icons round-bg" />
+			<h4>Challenging Copyrighting</h4>
 		</div>
 	</div>
 </div>
@@ -260,6 +230,22 @@ $bg = "";
 		<div class="col-md-6 description-spacing">
 			<h4 class="breakdown">Friendly Faces</h4>
 			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid seventy-padding-bottom bg-f4">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3 class="section-title-text">A/B Testing</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5 description-spacing">
+			<p>Finally, to validate the new design against our goals, we pit the new against the original. The initial results varied and for a while underperformed. But the data we were able to gather from these tests proved invaluable. This information allowed us to iterate until we produced a design that outperformed the original.</p>
+		</div>
+		<div class="col-md-7 zero-padmarg">
+			<img src="../img/case-studies/imh-homepage/ideating-concepts.jpg" class="img-responsive" />
 		</div>
 	</div>
 </div>
