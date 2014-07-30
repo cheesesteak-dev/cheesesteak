@@ -52,7 +52,7 @@ $active = "no";
 </div>
 
  <div class="row zero-padmarg">
-	<a href="" class="">
+	<a href="http://blog.headlamp.us" class="">
 		<div class="col-md-6 text-center bg-blog">
 			<h3 class="section-title-text">Our Blog</h3>
 			<p class="gateway">Thoughts on design, latest trends, and general information</p>

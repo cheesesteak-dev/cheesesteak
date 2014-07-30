@@ -28,10 +28,7 @@ $bg = "active";
 <div class="container-fluid section-break" id="myDiv">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.</p>
+			<p>When it comes to getting things done in a hurry, not panicking is essential. It's best to fall back on processes that can be followed by the team. Our processes have been taken from the industry leaders and applied to designs of all types. Whether it's a landing page redesign, product enhancement, or focusing in on a runaway sales processes, sprints work.</p>
 			<img src="http://placehold.it/800x800" class="img-responsive center-block forty-padding-top" />
 		</div>
 	</div>
@@ -40,13 +37,11 @@ $bg = "active";
 <div class="container-fluid bg-f4">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<h3 class="section-title-text">Producing Results</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in.</p>
+			<h3 class="section-title-text">Achieving Results</h3>
+			<p>These processes break down problems into manageable work chunks that can be performed to create a minimal viable product. This allows the team to ship often for immediate testing and feedback.</p>
 		</div>
 	</div>
+	<!-- Show process of sketch, to wireframe, to finalized page design. Use envato -->
 	<div class="row text-center forty-padding-top">
 		<div class="col-md-4 zero-padmarg">
 			<img src="http://placehold.it/580x300" class="img-responsive" />
@@ -63,7 +58,7 @@ $bg = "active";
 <div class="container-fluid">
 	<div class="row bg-black">
 		<div class="col-md-4 description-spacing">
-			<h3 class="section-title-text-left font-white">Processes</h3>
+			<h3 class="section-title-text-left font-white">Processes Explained</h3>
 		</div>
 	</div>
 	<div class="row">
@@ -79,12 +74,7 @@ $bg = "active";
 		<div class="col-md-9 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>The first step is understanding the problem. It is necessary to get as many points of view possible since a 360 degree view allows for the problem to be seem from all angles. Here everyone has a say and inputs as to what the main barriers and issues facing the product is.</p>
 				</div>
 			</div>
 		</div>
@@ -94,7 +84,7 @@ $bg = "active";
 			<div class="process-section bg-step-two">
 				<div class="process-copy">
 					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
-					<p class="heading">Ideating</p>
+					<p class="heading">Ideation</p>
 					<p class="sub-heading">Create Multiple Solutions</p>
 				</div>
 			</div>
@@ -102,12 +92,7 @@ $bg = "active";
 		<div class="col-md-9 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>Once everyone is aware of the problem, it's time individuals to break out on their own to come up with solutions. Any idea no matter how far off is accepted. The point here is to get ideas on paper so that perhaps more ideas can spawn off these far flung ones at a future sprint. At the end of this session, everyone votes on the ideas that are placed on walls. Top ideas get built, while the lower ones get shelved.</p>
 				</div>
 			</div>
 		</div>
@@ -125,12 +110,7 @@ $bg = "active";
 		<div class="col-md-9 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>Once the final ideas have been voted on, it's time for the design team to get to work to put the ideas into functional user flows, page designs, design comps, and any other item that's required in order to solve this problem. Once the wireframe has been completed, it's time for everyone to reconvene and critique the wireframe. The design is then reiterated upon and the feedback cycle continues.</p>
 				</div>
 			</div>
 		</div>
@@ -148,12 +128,7 @@ $bg = "active";
 		<div class="col-md-9 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
+					<p>When acceptance criteria are met, it's time to build an actual prototype. This will further test engagement and ensure what was actually mocked up makes sense. This mockup should be nearest to the finalized design as possible. With colors, images, and connected to an actual working database. However, if this is an entirely new, unbranded website, then the styleguide should be kept aside.</p>
 				</div>
 			</div>
 		</div>
@@ -171,11 +146,7 @@ $bg = "active";
 		<div class="col-md-9 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut.</p>
+					<p>At last, it's time to validate the solution. The purpose of testing is to get real world feedback on how the design performs. When it comes to test subjects, the further removed the person is from the project, the better. However, this may not always be possible, so we try to include test populations from outside of this problem-solving group.</p>
 				</div>
 			</div>
 		</div>
@@ -186,7 +157,7 @@ $bg = "active";
 	<div class="row case-border-design">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h3 class="section-title-text">Design Sprint Resources</h3>
-			<p>This is my top resouce collection of where I find my information on how design sprints are run.</p>
+			<p>My processes are modified versions taken from these great resources below.</p>
 		</div>
 	</div>
 	<div class="row forty-padding-top">
