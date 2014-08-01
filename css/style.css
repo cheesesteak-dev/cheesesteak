@@ -71,10 +71,14 @@ h4 {
 	font-family: 'sinkin400', arial, sans-serif;
 }
 
-a.button {
-	color: #C11E00;
-	border: 3px solid #C11E00;
-	font-size: 27px;
+a.button,
+a.button-nav {
+	border-radius: 20px;
+	color: rgb(240,119,70);
+	cursor: pointer;
+	/*border: 3px solid #fff;*/
+	font-family: 'sinkin200', arial, sans-serif;
+	font-size: 15px;
 	display: inline-block;
 	margin: 20px 0 0;
 	padding: 10px 30px;
@@ -83,11 +87,33 @@ a.button {
 	text-transform: uppercase;
 }
 
+
+
+a.button:hover,
+a.button-nav:hover {
+	border: 2px solid #000;
+	color: #000;
+	transition: color .12s linear;		
+	padding: 8px 28px;
+}
+
 a.button:hover {
-	border: 3px solid #FF9C08;
-	color: #FF9C08;
-	transition: color .15s linear,
-		border .15s linear;
+	color: #000;
+}
+
+a.button-nav {
+	color: #fff;
+}
+
+a.button.coming-soon,
+a.button-nav.coming-soon {
+	border: none;
+	cursor: default;
+}
+
+a.button.coming-soon:hover,
+a.button-nav.coming-soon:hover {
+	padding: 10px 30px;
 }
 
 .btnTool {
@@ -131,7 +157,7 @@ ul.nav-header li a:hover {
 }
 
 ul.nav-header li a.active {
-	color: red;
+	color: rgb(240,119,70);
 }
 
 img.round-bg {
@@ -158,9 +184,9 @@ img + h4 {
 /* leaderboard backgrounds */
 
 .leader-bg {
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: left top;	
+	background-color: #292f36;
+	background-repeat: no-repeat;
+	background-position: left top;	
 	height: 100%;
 	margin-top: 77px;
 	position: relative;
@@ -172,12 +198,33 @@ img + h4 {
 }
 
 .leader-bg-homepage {
-	background: url(../img/case-studies/imh-homepage/homepage-cover.jpg) 0 0 no-repeat;
-    background-size: 100% 100%;
+	background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+		url(../img/bg-homepage.jpg) 0 0 no-repeat;
+}
+
+.leader-bg-sprints {
+	background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+		url(../img/bg-process.jpg) 0 0 no-repeat;
+}
+
+.bg-cover {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+
 }
 
 .leader-bg-homepage h2.leaderboard {
-	top: 60%;
+	top: 40%;
 }
 
 .overlay {
@@ -211,8 +258,8 @@ img + h4 {
 }
 
 #button:hover {
-	border-color: orange;
-	color: orange;
+	border-color: #fff;
+	color: #fff;
 	transition: border-color .4s ease,
 		color .4s ease;
 }
@@ -304,10 +351,10 @@ p.sub-heading {
 	color: #fff;
 }
 
-p.gateway {
-	font-size: 18px;
-	padding: 0 50px 60px;
+.nav-height	{
+	padding: 60px 0;
 }
+
 
 /* padding */
 
@@ -510,7 +557,7 @@ h3.what-we-do {
 }
 
 h3.section-title-text {
-	padding: 80px 0 40px;
+	padding: 50px 0 30px;
 }
 
 h3.section-title-text-left {
@@ -669,11 +716,12 @@ footer p + p {
 }
 
 footer a {
-	color: green;
+	color: rgb(240,119,70);
 	font-style: italic;
 }
 
 footer a:hover {
+	color: #fff;
 	text-decoration: none;
 }
 

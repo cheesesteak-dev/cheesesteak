@@ -13,8 +13,8 @@ $bg = "active";
 	<?php include "_inc/main-nav.php"; ?>
 </header>
 
-<div class="container-fluid leader-bg leader-case-study-imh-homepage case-border-bottom">
-			<h2 class="leaderboard text-center">My Design Sprint Process Inspired by<br />Stanfords d.school Design Thinking</h2>
+<div class="container-fluid leader-bg leader-bg-sprints bg-cover case-border-bottom">
+	<h2 class="leaderboard text-center">Our Design Process</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
 		</div>
@@ -25,23 +25,23 @@ $bg = "active";
 </div>
 
  
-<div class="container-fluid section-break" id="myDiv">
-	<div class="row">
+<div class="container-fluid" id="myDiv">
+	<div class="row fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<p>When it comes to getting things done in a hurry, not panicking is essential. It's best to fall back on processes that can be followed by the team. Our processes have been taken from the industry leaders and applied to designs of all types. Whether it's a landing page redesign, product enhancement, or focusing in on a runaway sales processes, sprints work.</p>
-			<img src="http://placehold.it/800x800" class="img-responsive center-block forty-padding-top" />
+			<!-- <img src="http://placehold.it/800x800" class="img-responsive center-block forty-padding-top" /> -->
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid bg-f4">
-	<div class="row">
+<!-- <div class="container-fluid bg-f4">
+	<div class="row fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h3 class="section-title-text">Achieving Results</h3>
 			<p>These processes break down problems into manageable work chunks that can be performed to create a minimal viable product. This allows the team to ship often for immediate testing and feedback.</p>
 		</div>
 	</div>
-	<!-- Show process of sketch, to wireframe, to finalized page design. Use envato -->
+	Show process of sketch, to wireframe, to finalized page design. Use envato
 	<div class="row text-center forty-padding-top">
 		<div class="col-md-4 zero-padmarg">
 			<img src="http://placehold.it/580x300" class="img-responsive" />
@@ -53,11 +53,11 @@ $bg = "active";
 			<img src="http://placehold.it/580x300" class="img-responsive" />
 		</div>
 	</div>
-</div>
+</div> -->
 
 <div class="container-fluid">
 	<div class="row bg-black">
-		<div class="col-md-4 description-spacing">
+		<div class="col-md-6 description-spacing">
 			<h3 class="section-title-text-left font-white">Processes Explained</h3>
 		</div>
 	</div>
@@ -153,7 +153,7 @@ $bg = "active";
 	</div>
 </div>
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
 	<div class="row case-border-design">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h3 class="section-title-text">Design Sprint Resources</h3>
@@ -174,7 +174,7 @@ $bg = "active";
 			<img src="http://placehold.it/450x150" class="img-responsive" />
 		</div>
 	</div>
-</div>
+</div> -->
 
 <?php include '_inc/footer.php' ?>
 

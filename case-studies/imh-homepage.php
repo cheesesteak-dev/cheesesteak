@@ -13,7 +13,7 @@ $bg = "";
 	<?php include "../_inc/main-nav.php"; ?>
 </header>
  
-<div class="container-fluid leader-bg leader-case-study-imh-homepage case-border-bottom">
+<div class="container-fluid leader-bg leader-case-study-imh-homepage bg-cover case-border-bottom">
 			<h2 class="leaderboard text-center">UX Design Case Study:<br />Homepage Optimization</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
@@ -92,49 +92,64 @@ $bg = "";
 
 <div class="container-fluid bg-f4">
 	<div class="row text-center">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-12 zero-padmarg">
 			<h3 class="section-title">Design Iterations</h3>
-
-<!-- HTML to write -->
-
-
-
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-1.jpg" class="img-responsive" />
-			</button>
-		</div>
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-2.jpg" class="img-responsive" />
-			</button>
-
-		</div>
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-3.jpg" class="img-responsive" />
-			</button>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-4.jpg" class="img-responsive" />
-			</button>
-		</div>
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-5.jpg" class="img-responsive" />
-			</button>
-		</div>
-		<div class="col-md-4 zero-padmarg">
-			<button type="button" class="btnTool btn-defaultTool" data-toggle="tooltip" data-placement="top" title="Tooltip on left">
-				<img src="../img/case-studies/imh-homepage/iteration-6.jpg" class="img-responsive" />
-				
-			</button>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+					  <img src="../img/case-studies/imh-homepage/iteration-1.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+					<div class="item">
+						<img src="../img/case-studies/imh-homepage/iteration-2.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+					<div class="item">
+						<img src="../img/case-studies/imh-homepage/iteration-3.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+					<div class="item">
+						<img src="../img/case-studies/imh-homepage/iteration-4.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+					<div class="item">
+						<img src="../img/case-studies/imh-homepage/iteration-5.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+					<div class="item">
+						<img src="../img/case-studies/imh-homepage/iteration-6.jpg" class="img-responsive" />
+					  <div class="carousel-caption">
+					    ...
+					  </div>
+					</div>
+				</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+			</div>
 		</div>
 	</div>
 </div>
