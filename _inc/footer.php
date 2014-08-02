@@ -1,10 +1,18 @@
 <footer>
 <div class="container-fluid">
   <div class="row" id="homepage-footer">
-		<div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6 col-md-offset-1">
+        <ul>
+          <li><a href="http://twitter.com/headlampDesign"><img src="img/footer-icon-twitter.png"/></a></li>
+          <li><a href="https://github.com/headlamp-dev"><img src="$image_pathimg/footer-icon-github.png"/></a></li>
+      </ul>
+    </div>
+		<div class="col-md-4 text-right">
 			<h3>Let's talk about what Headlamp can do for you. </h3>
-      <p>email: <a href="mailto:hello@headlamp.us">hello@headlamp.us</a><br />
-      twitter: <a href="https://twitter.com/headlampDesign">@headlampDesign</a></p>
+      <p>email: <a href="mailto:hello@headlamp.us">hello@headlamp.us</a></p>
+      <p>
+
+      </p>
 		</div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>

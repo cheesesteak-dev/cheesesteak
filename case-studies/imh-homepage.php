@@ -1,11 +1,10 @@
 <?php 
+include '$image_path/_inc/vars.php';
 $sub_dir = "yes";
-$active = "";
-$bg = "";
+$no_google = "yes";
+include '../_inc/head.php';
 // $nav_bg = "bg-black"
 ?>
-
-<?php include '../_inc/head.php' ?>
 
 <body>
 
@@ -28,7 +27,7 @@ $bg = "";
 	<div class="row zero-padmarg">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<p>We had decided to tackle this page to improve the user experience through new copy and an overall design update. Tasked as the lead, it would be up to me to improve the user experience. This case study is an overview of the work I did to get to my end goal. In the end, it took about 2 weeks to come up with a finalized design, and another few months to iterate a winning design.</p>
-			<a href="" class="button">See The Design</a>
+			<a href="" class="button">See The Design >></a>
 		</div>
 	</div>
 </div>
@@ -93,8 +92,8 @@ $bg = "";
 <div class="container-fluid bg-f4">
 	<div class="row text-center">
 		<div class="col-md-12 zero-padmarg">
-			<h3 class="section-title">Design Iterations</h3>
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div id="carousel-example-generic" class="carousel slide fifty-padding-bottom" data-ride="pause">
+			<h3 class="section-title-text">Design Iterations</h3>
 			  <!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -102,52 +101,50 @@ $bg = "";
 					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="5"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-					  <img src="../img/case-studies/imh-homepage/iteration-1.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
+						<h3>Version 1 &ndash; Long page design</h3>
+					  <img src="../img/case-studies/imh-homepage/iteration-1.jpg" class="img-responsive center-block" />
+					  <div class="carousel-caption zero-padmarg">
+						<a href="../img/case-studies/imh-homepage/iteration-full-1.jpg" class="button">See The Full Design &gt;&gt;</a>
 					  </div>
 					</div>
 					<div class="item">
-						<img src="../img/case-studies/imh-homepage/iteration-2.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
+						<h3>Version 2 &ndash; Above the fold items same as Version 1. However, below fold items have been shortened</h3>
+						<img src="../img/case-studies/imh-homepage/iteration-2.jpg" class="img-responsive center-block" />
+					  <div class="carousel-caption zero-padmarg">
+						<a href="../img/case-studies/imh-homepage/iteration-full-2.jpg" class="button">See The Full Design &gt;&gt;</a>
 					  </div>
 					</div>
 					<div class="item">
-						<img src="../img/case-studies/imh-homepage/iteration-3.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
+						<h3>Version 3</h3>
+						<img src="../img/case-studies/imh-homepage/iteration-3.jpg" class="img-responsive center-block" />
+					  <div class="carousel-caption zero-padmarg">
+						<a href="../img/case-studies/imh-homepage/iteration-full-3.jpg" class="button">See The Full Design &gt;&gt;</a>
 					  </div>
 					</div>
 					<div class="item">
-						<img src="../img/case-studies/imh-homepage/iteration-4.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
+						<h3>Version 4</h3>
+						<img src="../img/case-studies/imh-homepage/iteration-4.jpg" class="img-responsive center-block" />
+					  <div class="carousel-caption zero-padmarg">
+						<a href="../img/case-studies/imh-homepage/iteration-full-4.jpg" class="button">See The Full Design &gt;&gt;</a>
 					  </div>
 					</div>
 					<div class="item">
-						<img src="../img/case-studies/imh-homepage/iteration-5.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
-					  </div>
-					</div>
-					<div class="item">
-						<img src="../img/case-studies/imh-homepage/iteration-6.jpg" class="img-responsive" />
-					  <div class="carousel-caption">
-					    ...
+						<h3>Final Version</h3>
+						<img src="../img/case-studies/imh-homepage/iteration-5.jpg" class="img-responsive center-block" />
+					  <div class="carousel-caption zero-padmarg">
+						<a href="../img/case-studies/imh-homepage/iteration-full-5.jpg" class="button">See The Full Design &gt;&gt;</a>
 					  </div>
 					</div>
 				</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="nav">&lt;</span>
 					</a>
 					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="nav">&gt;</span>
 					</a>
 			</div>
 		</div>
@@ -159,16 +156,19 @@ $bg = "";
 		<div class="col-md-8 col-md-offset-2 text-center thirty-padding-bottom">
 			<h3 class="section-title-text">Divergent Ideas</h3>
 			<p>There were divergent viewpoints that we had wanted to implement. Because of this, we had created different concepts to show our senior stakeholders. These two early concepts were produced at the same time.</p>
+			<a href="../img/case-studies/imh-homepage/divergent-compared.jpg" class="button">Compare Full Designs &gt;&gt;</a>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6 zero-padmarg text-center">
 			<img src="../img/case-studies/imh-homepage/diverge-1.jpg" class="img-responsive icon" />
 			<p class="description-spacing">This was my original concept. Based on the users we were targeting, I felt this design would be a better fit. It showed exactly what we had to offer and provided a direct path for users to follow. Also in this case, these users would be more likely to scroll than to outright abandon the page.</p>
+			<a href="../img/case-studies/imh-homepage/iteration-full-4.jpg" class="button">See This Design &gt;&gt;</a>
 		</div>
 		<div class="col-md-6 zero-padmarg text-center">
 			<img src="../img/case-studies/imh-homepage/diverge-2.jpg" class="img-responsive icon" />
 			<p class="description-spacing">This design was created to placate some concerns – which was that the original design did not properly convey the brand. Especially of concern was the lack of trust builders and competitive advantages above the fold. This design incorporated all of those elements.</p>
+			<a href="../img/case-studies/imh-homepage/iteration-full-4a.jpg" class="button">See This Design &gt;&gt;</a>
 		</div>
 	</div>
 </div>
@@ -245,6 +245,11 @@ $bg = "";
 		<div class="col-md-6 description-spacing">
 			<h4 class="breakdown">Friendly Faces</h4>
 			<p>We wanted to put the human element on our website. So for this section, I interviewed a couple of team members from our support team and asked questions that were more about them, and not focused too much on the company.</p>
+		</div>
+	</div>
+	<div class="row fifty-padding-bottom">
+		<div class="col-md-12 text-center">
+			<a href="../img/case-studies/imh-homepage/iteration-final.jpg" class="button">See the Full Design &gt;&gt;</a>
 		</div>
 	</div>
 </div>

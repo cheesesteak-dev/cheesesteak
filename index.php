@@ -1,10 +1,10 @@
 <?php 
+include '_inc/vars.php';
 $sub_dir = "no";
-
 $active = "no";
+include '_inc/head.php';
 ?>
 
-<?php include '_inc/head.php' ?>
 
 <body>
 
