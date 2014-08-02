@@ -8,34 +8,41 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php 
+    	if ($no_google == "yes") {
+    	print "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\">";
+    	}
+    	else { print ""; }
+    ?>
 
 <?php 
 
-if ($sub_dir == 'yes') {
+if ($sub_dir == "yes") {
 	    print "<!-- Bootstrap -->\n";
-	    print "<link href='../css/bootstrap.min.css' rel='stylesheet'>\n";
-	    print "<link href='../css/style.css' rel='stylesheet'>\n";
-	    print "<link href='../fonts/fonts.css' rel='stylesheet'>\n";
+	    print "<link href=\"../css/bootstrap.min.css\" rel=\"stylesheet\">\n";
+	    print "<link href=\"../css/style.css\" rel=\"stylesheet\">\n";
+	    print "<link href=\"../fonts/fonts.css\" rel=\"stylesheet\">\n";
 	    print "<!-- Headroom -->\n";
-	    print "<link href='../css/headroom.css' rel='stylesheet'>\n";
+	    print "<link href=\"../css/headroom.css\" rel=\"stylesheet\">\n";
 }
 
-elseif ($sub_dir == 'no') {
+elseif ($sub_dir == "no") {
 	    print "<!-- Bootstrap -->\n";
-	    print "<link href='css/bootstrap.min.css' rel='stylesheet'>\n";
-	    print "<link href='css/style.css' rel='stylesheet'>\n";
-	    print "<link href='fonts/fonts.css' rel='stylesheet'>\n";
+	    print "<link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n";
+	    print "<link href=\"css/style.css\" rel=\"stylesheet\">\n";
+	    print "<link href=\"fonts/fonts.css\" rel=\"stylesheet\">\n";
 	    print "<!-- Headroom -->\n";
-	    print "<link href='css/headroom.css' rel='stylesheet'>\n";
+	    print "<link href=\"css/headroom.css\" rel=\"stylesheet\">\n";
 }
+
 	// if ($sub_dir="yes" && defined) {
-	// 	print "<link href='../css/bootstrap.css' rel='stylesheet'>";
+	// 	print "<link href=\"../css/bootstrap.css\" rel=\"stylesheet\">";
 	// }
 	// else {
 	//     print "<!-- Bootstrap -->";
-	//     print "<link href='css/bootstrap.css' rel='stylesheet'>";
-	//     print "<link href='css/style.css' rel='stylesheet'>";
-	//     print "<link href='fonts/fonts.css' rel='stylesheet'>";
+	//     print "<link href=\"css/bootstrap.css\" rel=\"stylesheet\">";
+	//     print "<link href=\"css/style.css\" rel=\"stylesheet\">";
+	//     print "<link href=\"fonts/fonts.css\" rel=\"stylesheet\">";
 	// }
 
 

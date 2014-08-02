@@ -1,11 +1,12 @@
 <?php 
+include '_inc/vars.php';
 $sub_dir = "no";
 $active = "yes";
 $bg = "active";
+include '_inc/head.php';
 // $nav_bg = "bg-black"
 ?>
 
-<?php include '_inc/head.php' ?>
 
 <body>
 
@@ -28,7 +29,7 @@ $bg = "active";
 <div class="container-fluid" id="myDiv">
 	<div class="row fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<p>When it comes to getting things done in a hurry, not panicking is essential. It's best to fall back on processes that can be followed by the team. Our processes have been taken from the industry leaders and applied to designs of all types. Whether it's a landing page redesign, product enhancement, or focusing in on a runaway sales processes, sprints work.</p>
+			<p>When it comes to getting things done in a hurry, we follow a process that ensures the right problem gets solved.These processes have been taken from the industry leaders and applied to our design process for creating landing page redesigns, product enhancements, or locking down a runaway process.</p>
 			<!-- <img src="http://placehold.it/800x800" class="img-responsive center-block forty-padding-top" /> -->
 		</div>
 	</div>
@@ -58,23 +59,23 @@ $bg = "active";
 <div class="container-fluid">
 	<div class="row bg-black">
 		<div class="col-md-6 description-spacing">
-			<h3 class="section-title-text-left font-white">Processes Explained</h3>
+			<h3 class="section-title-text-left font-white">Processes Defined</h3>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-3 zero-padmarg">
 			<div class="process-section bg-step-one">
 				<div class="process-copy">
-					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
+					<!-- <img src="http://placehold.it/50x50" class="img-responsive center-block" /> -->
 					<p class="heading">Understanding</p>
 					<p class="sub-heading">Research, Research, Research</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-9 description-spacing">
+		<div class="col-md-8 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>The first step is understanding the problem. It is necessary to get as many points of view possible since a 360 degree view allows for the problem to be seem from all angles. Here everyone has a say and inputs as to what the main barriers and issues facing the product is.</p>
+					<p>Here we tackle the problem and gain a better understanding of it through research, interviews, and competitive research. Once the problem is defined and agreed upon by team, then we can start generating ideas.</p>
 				</div>
 			</div>
 		</div>
@@ -83,16 +84,16 @@ $bg = "active";
 		<div class="col-md-3 zero-padmarg">
 			<div class="process-section bg-step-two">
 				<div class="process-copy">
-					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
+					<!-- <img src="http://placehold.it/50x50" class="img-responsive center-block" /> -->
 					<p class="heading">Ideation</p>
 					<p class="sub-heading">Create Multiple Solutions</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-9 description-spacing">
+		<div class="col-md-8 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Once everyone is aware of the problem, it's time individuals to break out on their own to come up with solutions. Any idea no matter how far off is accepted. The point here is to get ideas on paper so that perhaps more ideas can spawn off these far flung ones at a future sprint. At the end of this session, everyone votes on the ideas that are placed on walls. Top ideas get built, while the lower ones get shelved.</p>
+					<p>With an agreed upon understanding of the problem, each team member starts designing a solution. The point here is to get ideas on paper so that it can be shared. At the end of this session, everyone votes on the ideas. Top ideas move forward, while the lower ones get shelved.</p>
 				</div>
 			</div>
 		</div>
@@ -101,16 +102,16 @@ $bg = "active";
 		<div class="col-md-3 zero-padmarg">
 			<div class="process-section bg-step-three">
 				<div class="process-copy">
-					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
+					<!-- <img src="http://placehold.it/50x50" class="img-responsive center-block" /> -->
 					<p class="heading">Wireframing</p>
 					<p class="sub-heading">Layout Solutions</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-9 description-spacing">
+		<div class="col-md-8 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>Once the final ideas have been voted on, it's time for the design team to get to work to put the ideas into functional user flows, page designs, design comps, and any other item that's required in order to solve this problem. Once the wireframe has been completed, it's time for everyone to reconvene and critique the wireframe. The design is then reiterated upon and the feedback cycle continues.</p>
+					<p>Now it's time for creating user flows and wireframes. Once these have been completed, the team can get together and provide intiial feedback. As the wireframe is iterated upon, the final design starts taking shape.</p>
 				</div>
 			</div>
 		</div>
@@ -119,16 +120,16 @@ $bg = "active";
 		<div class="col-md-3 zero-padmarg">
 			<div class="process-section bg-step-four">
 				<div class="process-copy">
-					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
+					<!-- <img src="http://placehold.it/50x50" class="img-responsive center-block" /> -->
 					<p class="heading">Building</p>
 					<p class="sub-heading">Prototyping Designs</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-9 description-spacing">
+		<div class="col-md-8 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>When acceptance criteria are met, it's time to build an actual prototype. This will further test engagement and ensure what was actually mocked up makes sense. This mockup should be nearest to the finalized design as possible. With colors, images, and connected to an actual working database. However, if this is an entirely new, unbranded website, then the styleguide should be kept aside.</p>
+					<p>As the mockup is completed, it's time to put together a functioning prototype. This will allow for further functionality testing. At this point, further iterations to the the design are implemented.</p>
 				</div>
 			</div>
 		</div>
@@ -137,16 +138,16 @@ $bg = "active";
 		<div class="col-md-3 zero-padmarg">
 			<div class="process-section bg-step-five">
 				<div class="process-copy">
-					<img src="http://placehold.it/50x50" class="img-responsive center-block" />
+					<!-- <img src="http://placehold.it/50x50" class="img-responsive center-block" /> -->
 					<p class="heading">Testing</p>
 					<p class="sub-heading">Validating Solutions</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-9 description-spacing">
+		<div class="col-md-8 description-spacing">
 			<div class="process-section">
 				<div class="process-copy">
-					<p>At last, it's time to validate the solution. The purpose of testing is to get real world feedback on how the design performs. When it comes to test subjects, the further removed the person is from the project, the better. However, this may not always be possible, so we try to include test populations from outside of this problem-solving group.</p>
+					<p>Now it's time to see how the design works. Here we test the prototype with users and see how they interact. Hopefully, their interactions will fall inline with our hypothesis. If it doesn't, then this is a great time to refine the design.</p>
 				</div>
 			</div>
 		</div>

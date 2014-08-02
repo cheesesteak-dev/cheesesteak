@@ -1,10 +1,10 @@
 <?php 
+include '_inc/vars.php';
 $sub_dir = "no";
-
 $active = "no";
+include '_inc/head.php';
 ?>
 
-<?php include '_inc/head.php' ?>
 
 <body>
 
@@ -32,7 +32,7 @@ $active = "no";
 	<div class="row fifty-padding-bottom">
 		<div class="col-md-4 text-center nav-height bg-product">
 			<p class="heading">Web Design</p>
-			<p>We Make Elegant Websites<br /><a class="button-nav coming-soon">Coming Soon</a></p>
+			<p>We Make Elegant Websites<br /><a class="button-nav coming-soon">&nbsp;</a></p>
 		</div>
 		<div class="col-md-4 text-center nav-height bg-ui">
 	 		<p class="heading">User Experience</p>
@@ -40,7 +40,7 @@ $active = "no";
 		</div>
 		<div class="col-md-4 text-center nav-height bg-ux">
 			<p class="heading">Web Hosting</p>
-			<p>We'll Take Care of Your Online Presence<br /><a class="button-nav coming-soon">Coming Soon</a></p>		
+			<p>We'll Take Care of Your Online Presence<br /><a class="button-nav coming-soon">&nbsp;</a></p>
 		</div>
 	</div>
 </div>
@@ -54,7 +54,7 @@ $active = "no";
 	<div class="col-md-6 text-center fifty-padding-bottom">
 		<p class="heading">Concepts</p>
 		<p>Conceptual designs to keep the creative mind</p>
-		<a href="http://blog.headlamp.us" class="button coming-soon">Coming Soon</a>
+		<a href="http://blog.headlamp.us" class="button coming-soon">&nbsp;</a>
 	</div>
 </div> 
 
