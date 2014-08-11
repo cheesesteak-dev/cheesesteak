@@ -287,6 +287,9 @@ img + h4 {
 #myDiv {
 	padding-top: 50px;
 }
+#myDiv p {
+	font-size: 26px;
+}
 
 
 
