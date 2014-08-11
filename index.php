@@ -26,7 +26,7 @@ include '_inc/head.php';
 <div class="container-fluid" id="myDiv">
 	<div class="row zero-padmarg fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<p>Headlamp is here to help you handle all of your website needs. We specialize in creating full service online experiences for companies large &amp; small.</p>
+			<p class="primary-tb">Headlamp is here to help you handle all of your website needs. We specialize in creating full service online experiences for companies large &amp; small.</p>
 		</div>
 	</div>
 	<div class="row fifty-padding-bottom">

@@ -287,6 +287,9 @@ img + h4 {
 #myDiv {
 	padding-top: 50px;
 }
+#myDiv p {
+	font-size: 26px;
+}
 
 
 
@@ -420,6 +423,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04aff', end
 
 .nav-height	{
 	padding: 60px 0;
+}
+
+p.primary-tb {
+	font-size: 30px;
 }
 
 /*.carousel-control.left,
