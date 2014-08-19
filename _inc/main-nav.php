@@ -8,8 +8,9 @@
 					<ul class="nav-header">
 						<!-- <li><a href="">What We Do</a></li> -->
 						<!-- <li><a href="">Our Work</a></li> -->
-						<!-- <li><a href="">Who We Are</a></li> -->
-						<li><a href="<?php if ($sub_dir == "yes") { print "../"; } elseif ($sub_dir == "no") { print "";} ?>design-sprints.php" class="<?php if ($active == "yes") { print "active"; } ?>">Our Processes</a></li>
+						<li><a href="<?php if ($sub_dir == "yes") { print "../"; } elseif ($sub_dir == "no") { print "";} ?>about.php" class="<?php if ($active == "yes" && $page == "about") { print "active"; } ?>">About Us</a></li>
+
+						<li><a href="<?php if ($sub_dir == "yes") { print "../"; } elseif ($sub_dir == "no") { print "";} ?>design-sprints.php" class="<?php if ($active == "yes" && $page == "process") { print "active"; } ?>">Our Processes</a></li>
 					</ul>
 				</div>
 			</div>

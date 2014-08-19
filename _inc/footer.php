@@ -34,6 +34,8 @@ elseif ($sub_dir == 'no') {
       print "<script src='js/headroom.min.js'></script>";
 }
 
+
+
 ?>
 	
 <script>
@@ -67,4 +69,6 @@ $("#button").click(function() {
         scrollTop: $("#myDiv").offset().top
     }, 1000);
 });
+
 </script>
+

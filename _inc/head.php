@@ -48,10 +48,6 @@ elseif ($sub_dir == "no") {
 
 ?>
 
-
-
-
-
 	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>

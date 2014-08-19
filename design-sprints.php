@@ -3,6 +3,7 @@ include '_inc/vars.php';
 $sub_dir = "no";
 $active = "yes";
 $bg = "active";
+$page = "process";
 include '_inc/head.php';
 // $nav_bg = "bg-black"
 ?>
@@ -11,29 +12,22 @@ include '_inc/head.php';
 <body>
 
 <header id="header" class="header header--fixed hide-from-print" role="banner">
-	<?php include "_inc/main-nav.php"; ?>
+	<div class="container-fluid">
+		<div class="col-md-12 zero-padmarg">
+			<?php include "_inc/main-nav.php"; ?>
+		</div>
+
+	</div>
 </header>
 
-<div class="container-fluid leader-bg leader-bg-sprints bg-cover case-border-bottom">
-	<h2 class="leaderboard text-center">Our Design Process</h2>
-	<div class="row">
-		<div class="col-md-12 text-center">
-		</div>
-		<div id="button">
-			&or;
-		</div>
-	</div>
-</div>
-
- 
-<div class="container-fluid" id="myDiv">
-	<div class="row fifty-padding-bottom">
+<div class="container-fluid leaderboard-master bg-cover" >
+	<div class="row zero-padmarg fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<p>When it comes to getting things done in a hurry, we follow a process that ensures the right problem gets solved.These processes have been taken from the industry leaders and applied to our design process for creating landing page redesigns, product enhancements, or locking down a runaway process.</p>
-			<!-- <img src="http://placehold.it/800x800" class="img-responsive center-block forty-padding-top" /> -->
+			<p class="primary-tb">We follow a process that ensures the right problem gets solved.</p>
 		</div>
 	</div>
 </div>
+ 
 
 <!-- <div class="container-fluid bg-f4">
 	<div class="row fifty-padding-bottom">
