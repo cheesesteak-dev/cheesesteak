@@ -32,7 +32,7 @@ include '_inc/head.php';
 <div class="container-fluid leaderboard-master">
 	<div class="row zero-padmarg fifty-padding-bottom">
 		<div class="col-md-8 col-md-offset-2 text-center">
-			<p class="primary-tb">Headlamp is here to get your online presence off the ground. We specialize in creating online experiences, desiging websites, and SEO consulting services.</p>
+			<p class="primary-tb">FOOBARs is here to get your online presence off the ground. We specialize in creating online experiences, desiging websites, and SEO consulting services.</p>
 		</div>
 	</div>
 </div>
