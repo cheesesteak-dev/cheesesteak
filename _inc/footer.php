@@ -4,12 +4,12 @@
     <div class="col-md-6 col-md-offset-1">
         <ul>
           <li><a href="http://twitter.com/headlampDesign"><img src="<?php if ($sub_dir=="yes") { print "../"; } ?>img/footer-icon-twitter.png"/></a></li>
-          <li><a href="https://github.com/headlamp-dev"><img src="<?php if ($sub_dir=="yes") { print "../"; } ?>img/footer-icon-github.png"/></a></li>
+          <li><a href="https://github.com/cheesesteak-dev"><img src="<?php if ($sub_dir=="yes") { print "../"; } ?>img/footer-icon-github.png"/></a></li>
       </ul>
     </div>
 		<div class="col-md-4 text-right">
-			<h3>Let's talk about what Headlamp can do for you. </h3>
-      <p>email: <a href="mailto:hello@headlamp.us">hello@headlamp.us</a></p>
+			<h3>Let's talk about what CSCreative can do for you. </h3>
+      <p>email: <a href="mailto:hello@headlamp.us">hello@cheesesteakcreative.com</a></p>
 		</div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>

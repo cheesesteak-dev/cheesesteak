@@ -215,12 +215,16 @@ img + h4 {
 	font-size: 30px;
 }
 
+.color-grey {
+	color: #343838;
+}
 /* leaderboard backgrounds */
 
 .leaderboard-master {
 	border-bottom: 8px solid #000;
-	margin-top: 77px;
-	padding-top: 50px;
+	color: #fff;
+	height: 300px;
+	padding-top: 0;
 }
 
 .border-bottom-8 {
@@ -249,7 +253,7 @@ img + h4 {
 .leader-bg-homepage {
 	background: 
     linear-gradient(
-      rgba(255, 255, 255, 0.45), 
+      rgba(0, 0, 0, 0.45), 
       rgba(255, 255, 255, 0.45)
     ),
 		url(../img/bg-homepage.jpg) 0 0 no-repeat;
@@ -258,8 +262,8 @@ img + h4 {
 .leader-bg-about {
 	background: 
     linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
     ),
 		url(../img/bg-google-maps.png) 0 -180px no-repeat;
 }
@@ -362,7 +366,8 @@ img + h4 {
 	text-align: center;
 }
 
-.col-md-8 .process-copy p {
+.col-md-8 .process-copy p,
+.col-md-7 .process-copy p {
 	color: #000;
 	padding-top: 11px;
 	text-align: left;
@@ -465,6 +470,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04aff', end
 
 p.primary-tb {
 	font-size: 30px;
+	padding-top: 100px;
 }
 
 /*.carousel-control.left,
@@ -524,6 +530,14 @@ dd h4.zero-padding {
 	padding: 30px 0;
 }
 
+.fifty-paddingTB {
+	padding: 50px 0;
+}
+
+.seventy-paddingTB {
+	padding: 70px 0;
+}
+
 /* padding-top*/
 .thirty-padding-top {
 	padding-top: 30px;
@@ -554,8 +568,8 @@ dd h4.zero-padding {
 	padding-bottom: 70px;
 }
 
-.hundred1-padding-bottom {
-	padding: 0 0 100px;
+.hundred-padding-bottom {
+	padding-bottom: 100px;
 }
 
 dl.dl-horizontal dd {
@@ -804,6 +818,50 @@ a .bg-blog {
 	font-size: 24px;
 	margin-top: 0;
 
+}
+
+/* branding styleguide */
+
+img.pallette-block {
+	border: none;
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+.mayo-white {
+	background-color: #ffffff;
+}
+
+.cheesy-orange {
+	background-color: orange;
+	color: orange;
+}
+
+.sriracha-red {
+	background-color: red;
+	color: red;
+}
+
+.steak-brown {	
+	background-color: rgb(240,119,70);
+	color: rgb(240,119,70);
+}
+
+.mushroom-grey {
+	background-color: #343838;
+}
+
+h3.section-title.reset,
+.reset {
+	margin: 0;
+	padding: 0;
+}
+
+p.guide-link {
+	color: orange;
+	font-size: 15px;
+	padding: 0;
 }
 
 /* product design */
